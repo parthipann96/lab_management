@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li
+{
+    list-style: none;
+}
+body{
+	background: white;
+    background-size: cover;
+    font-family:  sans-serif;
+    min-width: 468;
+}
+.sys-info
+{
+    width: 80%;
+    min-width: 466px;
+    border: 2px solid rgba(255, 7, 7, 0.767);
+    position: relative;
+    top: 100px;
+    left: 10%;
+}
+.msg
+{
+    background-color: rgba(255, 7, 7, 0.767);
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box
+{
+    margin-top: 2%;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.inputboxfst
+{
+    width: 45%;
+    float: left;
+    height: 100%;
+    padding-left: 5%;
+}
+.inputboxfst input
+{
+    padding: 10px;
+    height: 44px;
+    width: 70%;
+    right: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.inputboxfst select
+{
+    padding: 10px;
+    height: 48px;
+    width: 75%;
+    left: 10px;
+    right: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.inputboxfst label
+{
+    font-weight: bolder;
+    float: left;
+    font-size: 20px;
+    width: 50%;
+}
+.butn-1
+{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 90%;
+}
+.butn-1 input 
+{
+    background: inherit;
+    height: 40px;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding-right: 2px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.frgt-pass
+{
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+.frgt-pass a
+{
+    color: black;
+}
+.butn-1 input:hover
+{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: rgba(29, 28, 28, 0.856);
+}
+@media screen and (max-width:720)
+{
+    .inputboxfst input
+    {
+        width: 100%;
+
+        height: 100%;
+        background-color: brown;
+    }
+    .butn-1
+    {
+        width: 100%;
+        height: 10%;
+        position: relative;
+    }
+}
+.xl_db
+{
+    height: auto;
+    width: 400px;
+    border: 1px solid rgba(255, 7, 7, 0.767);
+    margin-left: 200px;
+}
+.info
+{
+    background-color: rgba(255, 7, 7, 0.767);
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.upload
+{
+    padding-left: 10px;
+}
+.upload input[type=file]
+{
+    padding: 5px;
+    border: none;
+    width: 100px;
+}
+input input[type=submit],input input[type=reset]
+{
+    background: inherit;
+    height: 40px;
+    width: 30%;
+    border: none;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding-right: 2px;
+}
+input input[type=submit]:hover,input input[type=reset]:hover
+{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: rgba(29, 28, 28, 0.856);
+}

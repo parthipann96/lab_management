@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body
+{
+    background-color: white;
+    font-family: sans-serif;
+}
+.login-info
+{
+    height: 60%;
+    width: 40%;
+    border: 2px solid rgba(255, 7, 7, 0.767);
+    position: absolute;
+    left: 50%;;
+    top: 40%;
+}
+.msg
+{
+    background-color: rgba(255, 7, 7, 0.767);
+    text-align: center;
+    color: white;
+    height: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box
+{
+    top: 20%;
+    left: 10%;
+    padding: 5%;
+}
+.inputbox
+{
+    padding: 5%;
+}
+.inputbox input
+{
+    padding: 10px;
+    height: 48px;
+    width: 70%;
+    left: 40px;
+    font-size: 20px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.inputbox input:focus
+{
+    border: 2px solid rgba(7, 52, 255, 0.767);
+}
+.inputbox label
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.butn
+{
+    width: 70%;
+    height: 40px;
+    margin-left: 20%;
+}
+.butn-1 input
+{
+    background: inherit;
+    height: 40px;
+    width: 50%;
+    border: none;
+    float: left;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding-right: 2px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.frgt-pass
+{
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+.frgt-pass a
+{
+    margin-left: 10px;
+    color: black;
+}
+.butn-1 input:hover
+{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: rgba(29, 28, 28, 0.856);
+}

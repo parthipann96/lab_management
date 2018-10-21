@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+
+}
+.err-form
+{
+    height: 60%;
+    width: 45%;
+    margin: 25px 0px 0px 500px;
+}
+.msg1
+{
+    background-color: rgba(255, 7, 7, 0.767);
+    text-align: center;
+    color: white;
+    height: 13%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box
+{
+    background-color: white;
+    left: 5%;
+    float: left;
+    width: 100%;
+    height: 230px;
+    border: 1px solid rgba(255, 7, 7, 0.767);
+}
+.inputbox
+{
+    padding: 5%;
+}
+.inputbox input
+{
+    height: 40px;
+    width: 60%;
+    left: 40px;
+    float: right;
+    font-size: 18px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.butn1
+{
+    width: 100%;
+    height: 40px;
+}
+.butn-1 input
+{
+    float: right;
+    background: inherit;
+    height: 40px;
+    margin-right: 5%;
+    width: 25%;
+    border-radius: 2px;
+    border: 1px solid gray;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+.inputbox label
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.butn-1 input:hover
+{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: rgba(29, 28, 28, 0.856);
+}
+
+@media screen and (max-width: 1200px) {
+    .err-info
+    {
+        height: auto;
+        width: 35%;
+        margin-left: 20px;
+        margin-top: 50px;
+        position: relative;
+    }
+}

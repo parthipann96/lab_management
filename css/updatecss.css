@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: white;
+    font-family: sans-serif;
+}
+.qury-form
+{
+    height: 60%;
+    width: 40%;
+    left: 50%;
+    top: 35%;
+    position: absolute;
+    border: 2px solid rgba(255, 7, 7, 0.767);
+}
+.msg1
+{
+    background-color: rgba(255, 7, 7, 0.767);
+    text-align: center;
+    color: white;
+    height: 13%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box1
+{
+    left: 5%;
+}
+.inputbox1
+{
+    padding: 4%;
+}
+.inputbox1 input
+{
+    height: 48px;
+    width: 60%;
+    left: 40px;
+    float: right;
+    font-size: 18px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.inputbox1 select
+{
+    height: 48px;
+    width: 60%;
+    left: 40px;
+    font-size: 18px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.butn1
+{
+    width: 90%;
+    margin-left: 10%;
+    height: 10px;
+    margin-top: 20px;
+}
+.butn1-1 input
+{
+    background: inherit;
+    height: 40px;
+    width: 40%;
+    border: none;
+    float: left;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding-right: 2px;
+}
+textarea
+{
+    width: 60%;
+    height: 100px;
+    resize: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.inputbox1 label
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.butn1-1 input:hover
+{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: rgba(29, 28, 28, 0.856);
+}
+.help
+{
+    border: 2px solid #ff0152;
+    height: 390px;
+    width: 35%;
+    background: #fffcfd;
+    margin-top:20%;
+    margin-left:5%
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    padding: 5px;
+    padding-left: 15px;
+}
+.dodont
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}

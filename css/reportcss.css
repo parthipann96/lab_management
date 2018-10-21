@@ -1,0 +1,54 @@
+#menu,#r_size,#h_size,#btn,#srch,#e_opt
+{
+        padding: 10px;
+        box-align: center;
+        height: auto;
+        margin-left:40%;
+        width: 500px;
+}
+#r_size,#h_size,#srch,#e_opt
+{
+        display: none;
+}
+#menu select
+{
+    padding: 5px;
+    height: 48px;
+    width: 100%;
+    margin-left: 10px;
+    right: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+#r_size select,#h_size select,#srch input,#e_opt select
+{
+    padding: 5px;
+    height: 48px;
+    width: 75%;
+    margin-left: 10px;
+    right: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+#btn input
+{
+    background: inherit;
+    height: 40px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding: 2px;
+}
+#btn input:hover
+{
+    cursor: pointer;
+    border: 1px solid rgb(56, 55, 55);
+    color: rgba(29, 28, 28, 0.856);
+}

@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+th {
+    border: 1px solid rgb(255, 0, 0);
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.589);
+}
+tr
+{
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #dddddd00;
+}
+tr:nth-child(odd) {
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+.err-form
+{
+    border: 2px solid #ff0152;
+    height: 150px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.msg1
+{
+    background-color: rgba(255, 7, 7, 0.767);
+    text-align: center;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box
+{
+    left: 5%;
+}
+.inputbox
+{
+    padding: 4px;
+    float: left;
+}
+.inputbox input
+{
+    height: 48px;
+    width:300px;
+    left: 40px;
+    font-size: 18px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.butn1
+{
+    width: 70%;
+    height: 40px;
+    margin-left: 20%;
+    float: left;
+    padding: 4px;
+}
+.butn-1 input
+{
+    padding: 4px;
+    background: inherit;
+    height: 40px;
+    width: 100px;
+    border: none;
+    float: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+.inputbox label
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.butn-1 input:hover
+{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: rgba(29, 28, 28, 0.856);
+}
+.sys-info
+{
+    width: 50%;
+    min-width: 466px;
+    height: 90%;
+    background: white;
+    border: 2px solid rgba(255, 7, 7, 0.767);
+    position: absolute;
+    top: 100px;
+    left: 25%;
+}
+.msg
+{
+    background-color: rgba(255, 7, 7, 0.767);
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box
+{
+    margin-top: 2%;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.inputboxfst
+{
+    width: 45%;
+    float: left;
+    height: 100%;
+    padding-left: 5%;
+}
+.inputboxfst input
+{
+    padding: 10px;
+    height: 44px;
+    width: 70%;
+    right: 20px;
+    font-size: 15px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.inputboxfst select
+{
+    padding: 10px;
+    height: 48px;
+    width: 75%;
+    left: 10px;
+    right: 20px;
+    font-size: 15px;
+    box-shadow: 0px 0px 1.5px rgb(73, 72, 72);
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.inputboxfst label
+{
+    font-weight: bolder;
+    float: left;
+    font-size: 20px;
+    width: 50%;
+}
+.butn-1
+{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    margin-top: -150px; 
+}
+.butn-1 input
+{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    border: 1px solid rgb(68, 68, 68);
+    font-size: 20px;
+    color: darkgray;
+    font-weight: bold;
+    padding-right: 2px;
+}
+.butn-1 input:hover
+{
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: rgba(29, 28, 28, 0.856);
+}
